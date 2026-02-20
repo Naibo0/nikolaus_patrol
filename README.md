@@ -1,5 +1,7 @@
 # Dokumentation: Haus vom Nikolaus mit TurtleBot3 (ROS 2 Humble)
 
+![Haus vom Nikolaus] <img width="5376" height="3200" alt="Haus_vom_Nikolaus2-2" src="https://github.com/user-attachments/assets/cc8a96a7-101a-4972-8b8b-22795bd7d3af" />
+
 Ziel: Wir bauen zwei Programme:
 - **Server**: Der Roboter führt die Fahrbewegung aus
 - **Client**: Wir geben per Tastatur Befehle (square / triangle / nikolaus)
@@ -64,7 +66,6 @@ Damit wir später `ros2 run ...` benutzen können, müssen wir “Startnamen” 
 Öffne die Datei:
 
 `~/turtlebot3_test/src/nikolaus_patrol/setup.py`
-<img width="5376" height="3200" alt="Haus_vom_Nikolaus2-2" src="https://github.com/user-attachments/assets/cc8a96a7-101a-4972-8b8b-22795bd7d3af" />
 
 Suche den Bereich `entry_points`. Er sieht ungefähr so aus:
 
